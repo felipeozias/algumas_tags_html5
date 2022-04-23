@@ -4,70 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
     <title>Tags básicas</title>
 </head>
-
-<style>
-    body{
-        padding: 10px;
-    }
-    *{
-        background-color: rgb(236, 236, 236);
-        padding: 0;
-        margin: 0;
-    }
-
-    li{
-        font-size: 20pt;
-        font-style: italic;
-    }
-
-    .titulo{
-        color: rgb(255, 0, 0);
-        text-align: center;
-        padding: 10px;
-    }
-
-    .tag{
-        color: blue;
-        margin-top: 15px;
-    }
-
-    h3{
-        color: rgb(0, 0, 0);
-    }
-
-    p{
-        font-size: 16pt;
-        font-style: italic;
-        font-family: Georgia;
-        margin: 5px;
-    }
-
-    .utilizacao{
-        border: solid 2px black;
-        border-radius: 10pt;
-        padding: 10px;
-    }
-</style>
 
 <body>
     <h1 class="titulo">Tags básicas do html 5</h1>
 
     <article>
         <p>O html 5 é a versão mais atual dessa linguagem de marcação de hiper textos. É fundametal ter o conhecimento das tags que podem ser utilizadas para desenvolvimento de qualquer página. Pensando nisso, criei essa página com algumas tags básicas do html 5 mais utilizadas, no qual veremos abaixo.</p>
-        <a href="https://www.w3c.br/pub/Cursos/CursoHTML5/html5-web.pdf">Documento oficial 01</a>
+        <a target="_blank" href="https://www.w3c.br/pub/Cursos/CursoHTML5/html5-web.pdf">Documento oficial 01</a>
         <br>
-        <a href="https://dev.w3.org/html5/html-author/">Documento oficial 02</a>
+        <a target="_blank" href="https://dev.w3.org/html5/html-author/">Documento oficial 02</a>
 
         <ul>
-            <li><strong>h1 - h6</strong></li> <a href="https://dev.w3.org/html5/html-author/#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements">Saiba mais</a>
-            <li><strong>p</strong></li> <a href="https://dev.w3.org/html5/html-author/#the-p-element">Saiba mais</a>
-            <li><strong>br</strong></li> <a href="https://dev.w3.org/html5/html-author/#the-br-element">Saiba mais</a>
-            <li><strong>a</strong></li> <a href="https://dev.w3.org/html5/html-author/#the-a-element">Saiba mais</a>
-            <li><strong>img</strong></li> <a href="https://dev.w3.org/html5/html-author/#the-img-element">Saiba mais</a>
-            <li><strong>ul</strong></li> <a href="https://dev.w3.org/html5/html-author/#the-ul-element">Saiba mais</a>
-            <li><strong>li</strong></li> <a href="https://dev.w3.org/html5/html-author/#the-li-element">Saiba mais</a>
+            <li><strong>h1 - h6</strong></li> <a target="_blank" href="https://dev.w3.org/html5/html-author/#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements">Saiba mais</a>
+            <li><strong>p</strong></li> <a target="_blank" href="https://dev.w3.org/html5/html-author/#the-p-element">Saiba mais</a>
+            <li><strong>br</strong></li> <a target="_blank" href="https://dev.w3.org/html5/html-author/#the-br-element">Saiba mais</a>
+            <li><strong>a</strong></li> <a target="_blank" href="https://dev.w3.org/html5/html-author/#the-a-element">Saiba mais</a>
+            <li><strong>img</strong></li> <a target="_blank" href="https://dev.w3.org/html5/html-author/#the-img-element">Saiba mais</a>
+            <li><strong>ul</strong></li> <a target="_blank" href="https://dev.w3.org/html5/html-author/#the-ul-element">Saiba mais</a>
+            <li><strong>li</strong></li> <a target="_blank" href="https://dev.w3.org/html5/html-author/#the-li-element">Saiba mais</a>
         </ul>
 
         <h2 class="tag">Tag: h</h2>
@@ -92,64 +49,71 @@
         <div class="utilizacao">
             <h3>Exemplos de utilização:</h3>
             <p style="color:crimson;"><strong>Código:</strong></p>
-            <img src="" alt="Exemplo">
+            <img src="imagens/exemplo_de_p.png" alt="Exemplo">
             <br>
             <p style="color:crimson;"><Strong>Efeito visual:</Strong></p>
+            <p>Teste da tag p</p>
 
         </div>
 
         <h2 class="tag">Tag: br</h2>
+        <p>A tag <strong>br</strong> é utilizada para quebrar linha, onde a quantidade de tags <strong>br</strong> escritas é a quantidade de linhas que será quebrada. Obs.: Essa tag é recomentada se utilizar para quebrar apenas uma linha por vesx</p>
 
         <div class="utilizacao">
             <h3>Exemplos de utilização:</h3>
             <p style="color:crimson;"><strong>Código:</strong></p>
-            <img src="" alt="Exemplo">
+            <img src="imagens/exemplo_de_br.png" alt="Exemplo">
             <br>
             <p style="color:crimson;"><Strong>Efeito visual:</Strong></p>
+
+            <p>tag antecessora</p>
+            <br>
+            <p>tag sucessora</p>
         
         </div>
 
         <h2 class="tag">Tag: a</h2>
+        <p>A tag <strong>a</strong> é utilizada para criar link a um endereço local ou na internet. Obs.: O atributo <strong><i>tagert</i></strong> dessa tag tem função de abrir o link em uma nova guia do navegador.</p>
 
         <div class="utilizacao">
             <h3>Exemplos de utilização:</h3>
             <p style="color:crimson;"><strong>Código:</strong></p>
-            <img src="" alt="Exemplo">
+            <img src="imagens/exemplo_de_a.png" alt="Exemplo">
             <br>
             <p style="color:crimson;"><Strong>Efeito visual:</Strong></p>
+            <a target="_blank" href="https://alphalumen.org.br/">Link do instituto Alpha Lumen</a>
         
         </div>
 
-    <h2 class="tag">Tag: img</h2>
+        <h2 class="tag">Tag: img</h2>
 
         <div class="utilizacao">
             <h3>Exemplos de utilização:</h3>
             <p style="color:crimson;"><strong>Código:</strong></p>
-            <img src="" alt="Exemplo">
+            <img src="imagens/exemplo_de_img.png" alt="Exemplo">
             <br>
             <p style="color:crimson;"><Strong>Efeito visual:</Strong></p>
+            <img src="imagens/programacao_300x200.jpg" alt="exemplo de imagem">
             
         </div>
 
-        <h2 class="tag">Tag: ul</h2>
+        <h2 class="tag">Tag: ul e li</h2>
+        <p>As tags <strong>ul</strong> e <strong>li</strong> são utilizadas para criar listas, onde a primeira é para criar uma lista não ordenada (que não recebe numeração) e a segunda para escrever em cada linha da lista.</p>
 
         <div class="utilizacao">
             <h3>Exemplos de utilização:</h3>
             <p style="color:crimson;"><strong>Código:</strong></p>
-            <img src="" alt="Exemplo">
+            <img src="imagens/exemplo_de_ul_li.png" alt="Exemplo">
             <br>
             <p style="color:crimson;"><Strong>Efeito visual:</Strong></p>
-            
-        </div>
 
-        <h2 class="tag">Tag: li</h2>
-
-        <div class="utilizacao">
-            <h3>Exemplos de utilização:</h3>
-            <p style="color:crimson;"><strong>Código:</strong></p>
-            <img src="" alt="Exemplo">
-            <br>
-            <p style="color:crimson;"><Strong>Efeito visual:</Strong></p>
+            <ul>
+                <li>Felipe</li>
+                <li>João</li>
+                <li>Maria</li>
+                <li>Pedro</li>
+                <li>Camila</li>
+            </ul>
             
         </div>
     </article>
