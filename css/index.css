@@ -1,5 +1,5 @@
+@charset "UTF-8";
 
-<style>
 body{
     padding: 10px;
 }
@@ -16,6 +16,7 @@ li{
 
 .titulo{
     color: rgb(255, 0, 0);
+    background-color: rgb(182, 182, 182);
     text-align: center;
     padding: 10px;
 }
@@ -45,4 +46,3 @@ p{
 ul{
     margin-left: 30px;
 }
-</style>
